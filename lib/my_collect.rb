@@ -1,7 +1,6 @@
 def my_collect(array)
-  i = 0
-  while i < array.length
-  yield array[i].collect {|element| element}
-  i += 1
-end
+  new_array = []
+  array.collect do |element|
+    new_array << "#{element}"
+  end
 end
