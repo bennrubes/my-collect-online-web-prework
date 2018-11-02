@@ -3,7 +3,7 @@ def my_collect(array)
   new_array = []
   array.collect do |element|
     new_array << "#{element}"
-    yield array[i]
+    yield(array[i])
     i += 1
   end
   new_array
