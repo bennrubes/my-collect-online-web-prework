@@ -6,4 +6,5 @@ def my_collect(array)
     new_array << "#{element}"
     i += 1
   end
+  new_array
 end
